@@ -89,8 +89,9 @@ header {
 }
 .ota {
   display: flex;
-  gap: 40px;
+  gap: 310px;
   align-items: center;
+  justify-content: center;
   color: #fff;
 }
 .bola {
@@ -239,6 +240,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
 }
 .besh-name {
   color: #35c66b;
@@ -277,7 +279,7 @@ header {
   justify-content: center;
   width: 130px;
   height: 130px;
-  box-shadow: 0px 0px 0px 10px rgb(255, 137, 2);
+  box-shadow: 0px 0px 0px 10px #35c66b;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -342,4 +344,22 @@ header {
   color: #35c66b;
   background-color: #fff;
   border: 2px solid #35c66b;
+}
+.img100 {
+  width: 300px;
+  height: 230px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.li100:hover {
+  transform: translateY(-10px);
+}
+.li100 {
+  background-color: #35c66b;
+  border-radius: 40px;
+  color: #fff;
+  text-align: center;
+  transition: 1s;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
